@@ -25,7 +25,7 @@ import pl.mmilosz.task.endpoint1.StatusPingController;
 @WebMvcTest(controllers = RestController.class)
 @AutoConfigureMockMvc
 @Slf4j
-public class Endpoint1 {
+public class Endpoint1Test {
 	
 	@Autowired
 	private StatusPingController controller;
